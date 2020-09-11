@@ -27,5 +27,13 @@ fun main(){
     objUserDefinedFun.userDefine("user define fun")
     println(objUserDefinedFun.userDefine1())
 
+    println("************************** Class & Data Class **************************")
+
+    var objPlayers1= Players1()
+    println(objPlayers1.task())
+
+    var objPlayers2= Players2("Hassan", "Barcelona", 9)
+    println(objPlayers2.task())
+
 
 }
