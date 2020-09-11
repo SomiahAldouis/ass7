@@ -1,4 +1,4 @@
-class Players1 { 
+class Players1 {
     data class PlayersData(val playerName: String, val TeamName: String, val playerNum: Int)
 
     fun task(): List<PlayersData> {
